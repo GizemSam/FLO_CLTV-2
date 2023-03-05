@@ -23,7 +23,7 @@
 - interested_in_categories_12 : Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
 
 ## GÖREVLER
-###############################################################
+---
 ### GÖREV 1: Veriyi Hazırlama
            # 1. flo_data_20K.csv verisini okuyunuz.Dataframe’in kopyasını oluşturunuz.
            # 2. Aykırı değerleri baskılamak için gerekli olan outlier_thresholds ve replace_with_thresholds fonksiyonlarını tanımlayınız.
