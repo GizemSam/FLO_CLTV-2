@@ -2,8 +2,8 @@
 
 # İş Problemi (Business Problem)
 --------
-# FLO satış ve pazarlama faaliyetleri için roadmap belirlemek istemektedir.
-# Şirketin orta uzun vadeli plan yapabilmesi için var olan müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin tahmin edilmesi gerekmektedir.
+## FLO satış ve pazarlama faaliyetleri için roadmap belirlemek istemektedir.
+## Şirketin orta uzun vadeli plan yapabilmesi için var olan müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin tahmin edilmesi gerekmektedir.
 
 ----
 # Veri Seti Hikayesi
@@ -22,9 +22,9 @@
 - customer_value_total_ever_offline : Müşterinin offline alışverişlerinde ödediği toplam ücret
 - interested_in_categories_12 : Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
 
-# GÖREVLER
+## GÖREVLER
 ###############################################################
-# GÖREV 1: Veriyi Hazırlama
+### GÖREV 1: Veriyi Hazırlama
            # 1. flo_data_20K.csv verisini okuyunuz.Dataframe’in kopyasını oluşturunuz.
            # 2. Aykırı değerleri baskılamak için gerekli olan outlier_thresholds ve replace_with_thresholds fonksiyonlarını tanımlayınız.
            # Not: cltv hesaplanırken frequency değerleri integer olması gerekmektedir.Bu nedenle alt ve üst limitlerini round() ile yuvarlayınız.
@@ -34,13 +34,13 @@
            # alışveriş sayısı ve harcaması için yeni değişkenler oluşturun.
            # 5. Değişken tiplerini inceleyiniz. Tarih ifade eden değişkenlerin tipini date'e çeviriniz.
 
-# GÖREV 2: CLTV Veri Yapısının Oluşturulması
+### GÖREV 2: CLTV Veri Yapısının Oluşturulması
            # 1.Veri setindeki en son alışverişin yapıldığı tarihten 2 gün sonrasını analiz tarihi olarak alınız.
            # 2.customer_id, recency_cltv_weekly, T_weekly, frequency ve monetary_cltv_avg değerlerinin yer aldığı yeni bir cltv dataframe'i oluşturunuz.
            # Monetary değeri satın alma başına ortalama değer olarak, recency ve tenure değerleri ise haftalık cinsten ifade edilecek.
 
 
-# GÖREV 3: BG/NBD, Gamma-Gamma Modellerinin Kurulması, CLTV'nin hesaplanması
+### GÖREV 3: BG/NBD, Gamma-Gamma Modellerinin Kurulması, CLTV'nin hesaplanması
            # 1. BG/NBD modelini fit ediniz.
                 # a. 3 ay içerisinde müşterilerden beklenen satın almaları tahmin ediniz ve exp_sales_3_month olarak cltv dataframe'ine ekleyiniz.
                 # b. 6 ay içerisinde müşterilerden beklenen satın almaları tahmin ediniz ve exp_sales_6_month olarak cltv dataframe'ine ekleyiniz.
@@ -48,6 +48,6 @@
            # 3. 6 aylık CLTV hesaplayınız ve cltv ismiyle dataframe'e ekleyiniz.
                 # b. Cltv değeri en yüksek 20 kişiyi gözlemleyiniz.
 
-# GÖREV 4: CLTV'ye Göre Segmentlerin Oluşturulması
+### GÖREV 4: CLTV'ye Göre Segmentlerin Oluşturulması
            # 1. 6 aylık tüm müşterilerinizi 4 gruba (segmente) ayırınız ve grup isimlerini veri setine ekleyiniz. cltv_segment ismi ile dataframe'e ekleyiniz.
            # 2. 4 grup içerisinden seçeceğiniz 2 grup için yönetime kısa kısa 6 aylık aksiyon önerilerinde bulununuz
