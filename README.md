@@ -50,4 +50,5 @@
 
 ### GÖREV 4: CLTV'ye Göre Segmentlerin Oluşturulması
            # 1. 6 aylık tüm müşterilerinizi 4 gruba (segmente) ayırınız ve grup isimlerini veri setine ekleyiniz. cltv_segment ismi ile dataframe'e ekleyiniz.
-           # 2. 4 grup içerisinden seçeceğiniz 2 grup için yönetime kısa kısa 6 aylık aksiyon önerilerinde bulununuz
+           # 2. 4 grup içerisinden seçeceğiniz 2 grup için yönetime kısa kısa 6 aylık aksiyon önerilerinde bulununuz.
+## CLTV_Functionalization.py = Tüm Sürecin fonksiyonlaştırlmış halidir.
