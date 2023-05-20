@@ -1,4 +1,4 @@
-![alt text](https://easyreporting.io/wp-content/uploads/2020/10/11-1-1024x576.png](https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2022/03/01151715/Essential-Reasons-to-Choose-Cloud-Based-HR-Software-02.png](https://routemobile.com/wp-content/uploads/2021/11/Route-Mobile-SMS-App-Hospitality-Industry.gif)
+![alt text](https://routemobile.com/wp-content/uploads/2021/11/Route-Mobile-SMS-App-Hospitality-Industry.gif)
 
 # İş Problemi (Business Problem)
 --------
